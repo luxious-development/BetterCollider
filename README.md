@@ -91,11 +91,13 @@ namespace Showcase
             GameObject val2 = val.LoadAsset<GameObject>("showcase.prefab");
             objectshowcase = Object.Instantiate(val2);
             GameObject val3 = val.LoadAsset<GameObject>("showcase2.prefab");
-            objectshowcase = Object.Instantiate(val3);
+            objectshowcase2 = Object.Instantiate(val3);
             GameObject val4 = val.LoadAsset<GameObject>("showcase3.prefab");
-            objectshowcase = Object.Instantiate(val4);
+            objectshowcase3 = Object.Instantiate(val4);
             val.Unload(false);
             objectshowcase.transform.localPosition = new Vector3(1555.915f, 4.501545f, 742.5206f);
+            objectshowcase2.transform.localPosition = new Vector3(1554.915f, 4.501545f, 742.5206f);
+            objectshowcase3.transform.localPosition = new Vector3(1553.915f, 4.501545f, 742.5206f);
             ColliderUtility.AddCollider(objectshowcase);
             ColliderUtility.AddCollider(objectshowcase2);
             ColliderUtility.AddCollider(objectshowcase3);
