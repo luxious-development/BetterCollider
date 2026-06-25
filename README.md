@@ -10,6 +10,7 @@ How to use:
 - Add it as a Reference in your mod project/visual studio project
 - Add ```using BetterCollider; ```
 - Have ```GameObject 1; GameObject2;``` until you have the number of GameObjects
+- Add it as a reference to MSC or MWC
 - After loading your object add this code to your project and rename myObject to the GameObject you want to add Collider
  ``` csharp
 ColliderUtility.AddCollider(myObject); 
